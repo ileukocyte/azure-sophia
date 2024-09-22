@@ -1,0 +1,16 @@
+{
+  "name": "Saint Sophia Cathedral",
+  "id": "st-sophia-cathedral",
+  "description": "Saint Sophia Cathedral in Kyiv, Ukraine, is an architectural monument of Kievan Rus'. The former cathedral is one of the city's best known landmarks and the first heritage site in Ukraine to be inscribed on the World Heritage List along with the Kyiv Cave Monastery complex. Aside from its main building, the cathedral includes an ensemble of supporting structures such as a bell tower and the House of Metropolitan. In 2011 the historic site was reassigned from the jurisdiction of the Ministry of Regional Development of Ukraine to the Ministry of Culture of Ukraine. One of the reasons for the move was that both Saint Sophia Cathedral and Kyiv Pechersk Lavra are recognized by the UNESCO World Heritage Program as one complex, while in Ukraine the two were governed by different government entities. It is currently a museum.",
+  "location": {
+    "humanized_address": "Volodymyrska St, 24",
+    "latitude": 50.4529128,
+    "longitude": 30.5098218
+  },
+  "pictures": [
+    "https://upload.wikimedia.org/wikipedia/commons/6/61/80-391-0151_Kyiv_St.Sophia%27s_Cathedral_RB_18_2_%28cropped%29.jpg",
+    "https://www.doaks.org/events/byzantine-studies/public-lectures/the-cathedral-of-st-sophia-kyiv/@@images/5d87ba54-0e76-409c-aa7a-1721d2effb06.jpeg",
+    "https://media.pravoslavie.ru/334792.s.jpg",
+    "https://holeinthedonut.com/wp-content/uploads/2017/10/Ukraine-Kiev-Saint-Sophia-Cathedral.jpg"
+  ]
+}

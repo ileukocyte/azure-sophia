@@ -1,0 +1,15 @@
+{
+  "name": "Mariinskyi Park",
+  "id": "mariinskyi-park",
+  "description": "Mariinskyi Park is a park located in Pechersk neighborhood in front of the Supreme Council of Ukraine (Constitution Square), Hrushevsky Street, and Park Road. The park is also a Soviet necropolis. The park is recognized as part of the Nature Preservation Fund of Ukraine, yet its official listing is not known.\n\nThe park is around 130 years old. It received its name from the nearby Mariinskyi Palace. Mariinskyi Park was founded in 1874 near central entrance of the Palace and the money for its foundation were budgeted by the wife of the Alexander II of Russia Maria Alexandrovna (Marie of Hesse). The appearance of the park changed a lot since that time. For example, at the end of the 19th-century marble busts and sculptures were erected along the alley. In 1900 cast iron fountain was established and it is still there.",
+  "location": {
+    "humanized_address": "Mykhaila Hrushevskoho St, 5",
+    "latitude": 50.4488189,
+    "longitude": 30.5111896
+  },
+  "pictures": [
+    "https://image.arrivalguides.com/x/00/4b5782dc1fd824019a46480195ec7338.jpg",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/1e/a6/16/mariinsky-park.jpg?w=1200&h=-1&s=1",
+    "https://st.depositphotos.com/1641946/3457/i/950/depositphotos_34577419-stock-photo-entrance-in-mariinsky-park-in.jpg"
+  ]
+}

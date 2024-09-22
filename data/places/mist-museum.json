@@ -1,0 +1,16 @@
+{
+  "name": "National Museum of the History of Ukraine",
+  "id": "mist-museum",
+  "description": "The National Museum of the History of Ukraine illustrates Ukraine's history from ancient times till nowadays. It is one of the leading museums in Ukraine. It holds about 800 000 items in its collection, approximately 22 000 exhibits on permanent display. The museum holds world-famous archaeological, numismatic, ethnographic and weapons collections, pieces of decorative and applied arts, manuscripts, prints, paintings and graphics, relics of the Ukrainian national liberation movement of the 20th century.\n\nThe museum, under different names, was located in various building in Kyiv throughout its history, starting from 1899. The present building is located in a prominent position in historic Volodymyrska Street in Kyiv. Designed by architect Joseph Karakis, it was built in 1937-1939 to house the Shevchenko State Art School. In 1944, the art school moved and the building became the State Republican Historical Museum. \n\nThe museum's collection has about 800,000 items. It include: ethnographic material, archaeological items including a significant collection of Scythian art, historical paintings and sculptures, numismatic collections, early printed books, etc.",
+  "location": {
+    "humanized_address": "Volodymyrska St, 2",
+    "latitude": 50.4583252,
+    "longitude": 30.5139948
+  },
+  "pictures": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4d/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%97_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C_2015_%D1%80..jpg",
+    "https://f-guide.kyivcity.gov.ua/location/11929/SZXpk.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Scythians_National_Museum_of_the_History_of_Ukraine.jpg/2560px-Scythians_National_Museum_of_the_History_of_Ukraine.jpg",
+    "https://kievtown.net/img/national_historical_2.jpg"
+  ]
+}

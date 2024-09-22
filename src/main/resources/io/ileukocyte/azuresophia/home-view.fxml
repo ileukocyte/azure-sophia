@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<TabPane fx:id="homeTabPane" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #18181c;" stylesheets="@stylesheet.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.ileukocyte.azuresophia.controllers.HomePageController">
+  <tabs>
+    <Tab id="homeTab" text="Home">
+      <content>
+        <VBox alignment="TOP_CENTER">
+               <children>
+                  <ScrollPane id="placesScrollPane" fitToHeight="true" focusTraversable="false" hbarPolicy="NEVER" pannable="true" style="-fx-focus-color: transparent; -fx-background: #18181c; -fx-background-color: transparent;" vbarPolicy="NEVER">
+                     <content>
+                        <VBox style="-fx-background-color: transparent;">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+                  <ScrollPane id="tipsScrollPane" fitToHeight="true" focusTraversable="false" hbarPolicy="NEVER" layoutX="10.0" layoutY="46.0" pannable="true" style="-fx-focus-color: transparent; -fx-background-color: transparent; -fx-background: #18181c;" vbarPolicy="NEVER">
+                     <content>
+                        <VBox style="-fx-background-color: transparent;">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+                  <ScrollPane id="recentPlacesScrollPane" fitToHeight="true" focusTraversable="false" hbarPolicy="NEVER" layoutX="10.0" layoutY="10.0" pannable="true" style="-fx-focus-color: transparent; -fx-background-color: transparent; -fx-background: #18181c;" vbarPolicy="NEVER">
+                     <content>
+                        <VBox style="-fx-background-color: transparent;">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </children></VBox>
+      </content>
+    </Tab>
+    <Tab id="planTab" text="Plans">
+         <content>
+            <VBox fx:id="planTabVBox" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Button fx:id="createPlanButton" mnemonicParsing="false" onAction="#onCreatePlanButtonClick" prefHeight="32.0" prefWidth="94.0" styleClass="blue-button" stylesheets="@stylesheet.css" text="Create">
+                     <font>
+                        <Font size="13.0" />
+                     </font></Button>
+                  <ScrollPane id="plansScrollPane" fitToHeight="true" fitToWidth="true" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-focus-color: transparent;" VBox.vgrow="ALWAYS">
+                     <content>
+                        <VBox spacing="10.0" />
+                     </content>
+                  </ScrollPane>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </content>
+    </Tab>
+      <Tab id="profileTab" text="Profile">
+         <content>
+            <VBox fx:id="profileTabVBox" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox alignment="TOP_CENTER" spacing="10.0">
+                     <children>
+                        <Circle id="pfpCircle" fill="WHITE" radius="66.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <VBox HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label id="nameLabel" alignment="TOP_LEFT" focusTraversable="false" text="Name" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="40.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="-5.0" top="-5.0" />
+                                 </padding>
+                              </Label>
+                              <Hyperlink id="usernameHyperlink" text="\@username">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets top="-10.0" />
+                                 </padding>
+                              </Hyperlink>
+                              <Button id="editProfileButton" mnemonicParsing="false" onAction="#onEditProfileButtonClick" prefHeight="51.0" prefWidth="211.0" styleClass="blue-button" stylesheets="@stylesheet.css" text="Edit Profile">
+                                 <font>
+                                    <Font name="System Bold" size="21.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <VBox HBox.hgrow="NEVER">
+                           <children>
+                              <Button id="logOutButton" mnemonicParsing="false" onAction="#onLogOutButtonClick" prefHeight="28.0" prefWidth="70.0" styleClass="red-button" stylesheets="@stylesheet.css" text="Log Out" />
+                           </children>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <padding>
+                              <Insets right="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </HBox>
+                  <TextFlow fx:id="bioTextFlow">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <Text fx:id="bioText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Tell the world about yourself!">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <ScrollPane id="visitedPlacesScrollPane" fitToHeight="true" focusTraversable="false" hbarPolicy="NEVER" pannable="true" style="-fx-focus-color: transparent; -fx-background-color: transparent; -fx-background: #18181c;" vbarPolicy="NEVER">
+                     <content>
+                        <VBox style="-fx-background-color: transparent;">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+         </content>
+      </Tab>
+      <Tab id="settingsTab" text="Settings">
+         <content>
+            <VBox fx:id="settingsTabVBox" prefHeight="200.0" prefWidth="100.0" spacing="10.0" stylesheets="@stylesheet.css">
+               <children>
+                  <Button id="clearHistoryButton" fx:id="clearHistoryButton" focusTraversable="false" mnemonicParsing="false" onAction="#onClearHistoryButtonClick" prefHeight="40.0" prefWidth="180.0" styleClass="red-button" text="Clear History" />
+                  <Button id="changePasswordButton" fx:id="changePasswordButton" focusTraversable="false" mnemonicParsing="false" onAction="#onChangePasswordButtonClick" prefHeight="40.0" prefWidth="180.0" styleClass="blue-button" text="Change Password" />
+                  <Button id="aboutButton" fx:id="aboutButton" focusTraversable="false" mnemonicParsing="false" onAction="#onAboutButtonClick" prefHeight="40.0" prefWidth="180.0" styleClass="blue-button" text="About" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

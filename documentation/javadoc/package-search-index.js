@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.ileukocyte.azuresophia"},{"l":"io.ileukocyte.azuresophia.controllers"},{"l":"io.ileukocyte.azuresophia.database"},{"l":"io.ileukocyte.azuresophia.entities"}];updateSearchResults();

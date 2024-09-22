@@ -1,0 +1,16 @@
+{
+  "name": "Golden Gate",
+  "id": "golden-gate",
+  "description": "The Golden Gate of Kyiv was the main gate in the 11th century fortifications of Kiev (today Kyiv), the capital of Kievan Rus'. It was named in imitation of the Golden Gate of Constantinople. The structure was dismantled in the Middle Ages, leaving few vestiges of its existence. It was rebuilt completely by the Soviet authorities in 1982, though no images of the original gates have survived. The decision has been immensely controversial because there were many competing reconstructions of what the original gate might have looked like.\n\nThe rebuilt structure on the corner of Volodymyr street and Yaroslaviv Val Street contains a branch of the National Sanctuary \"Sophia of Kyiv\" museum. The name Zoloti Vorota is also used for a nearby theater and the Zoloti Vorota station of the Kyiv Metro.",
+  "location": {
+    "humanized_address": "Volodymyrska St, 40A",
+    "latitude": 50.4488189,
+    "longitude": 30.5111896
+  },
+  "pictures": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Golden_Gate_Kiev_2018_G1.jpg/1280px-Golden_Gate_Kiev_2018_G1.jpg",
+    "https://kyivguide.com.ua/wp-content/uploads/golden-gate-kyiv-scaled.jpg",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/bb/e9/42/golden-gate.jpg?w=1200&h=-1&s=1",
+    "https://ubn.news/wp-content/uploads/2021/12/goldengate.jpeg"
+  ]
+}

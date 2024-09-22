@@ -1,0 +1,16 @@
+{
+  "name": "Khreshchatyk",
+  "id": "khreshchatyk",
+  "description": "Khreshchatyk is the main street of Kyiv, Ukraine. The street has a length of 1.2 kilometres (0.75 mi). It stretches from the European Square (northeast) through the Maidan and to Bessarabska Square (southwest) where the Besarabsky Market is located. Along the street are the offices of the Kyiv City Council which contains both the city's council and the state administration, the Main Post Office, the Ministry of Agrarian Policy, the State Committee of Television and Radio Broadcasting, the Central Department Store (TsUM), the Ukrainian House, and others.\n\nThe entire street was completely destroyed during World War II by the retreating Red Army troops and rebuilt in the neo-classical style of post-war Stalinist architecture. Among prominent buildings that did not survive were the Kyiv City Duma, the Kyiv Stock Exchange, Hotel Natsional, and the Ginzburg House. The street has been significantly renovated during the modern period of Ukraine's independence. Today, the street is still significant to administrative and business city organizations, as well as a popular tourist attraction.",
+  "location": {
+    "humanized_address": "Khreshchatyk St",
+    "latitude": 50.4378769,
+    "longitude": 30.5151196
+  },
+  "pictures": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4f/%D0%92%D1%83%D0%BB%D0%B8%D1%86%D1%8F_%D0%A5%D1%80%D0%B5%D1%89%D0%B0%D1%82%D0%B8%D0%BA_%D1%82%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%B2%D0%B0.JPG",
+    "https://f.kyivmaps.com/location/733/8OoPo.jpg",
+    "https://journalist.today/wp-content/uploads/2019/03/f7d7aed9-90da-3126-0419-a82f10870bc7.-1024x682.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Khreshchatyk.jpg/1200px-Khreshchatyk.jpg"
+  ]
+}

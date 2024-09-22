@@ -1,0 +1,16 @@
+{
+  "name": "Maidan Nezalezhnosti",
+  "id": "maidan-nezalezhnosti",
+  "description": "Maidan Nezalezhnosti (\"Independence Square\") is the central square of Kyiv, the capital city of Ukraine. One of the city's main squares, it is located on Khreshchatyk Street in the Shevchenko Raion. The square has been known under many different names, but often it is called by people simply Maidan (\"square\"). The square contains the iconic Independence Monument.\n\nIn the 19th century, the square contained buildings of the city council and noble assembly.\n\nSince the start of Ukraine's independence movement in 1990, the square has been the traditional place for political rallies, including four large-scale radical protest campaigns: the 1990 student Revolution on Granite, the 2001 Ukraine without Kuchma, the 2004 Orange Revolution and the 2013–14 Euromaidan. Maidan is also a regular site for non-political displays and events; however, since 2014, most of them were moved to Sofiyivska Square or elsewhere, because making entertainment on a place where people were killed during Euromaidan was considered inappropriate. Most notably, Christmas Fairs and New Year celebrations were moved to Sofiyivska Square.",
+  "location": {
+    "humanized_address": "Maidan Nezalezhnosti",
+    "latitude": 50.4505584,
+    "longitude": 30.5210808
+  },
+  "pictures": [
+    "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Maidan_1.jpg",
+    "https://emerging-europe.com/wp-content/uploads/2016/10/bigstock-Maidan-Nezalezhnosti-Square-K-97914164.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/c/ce/80-382-0071_Kyiv_SAM_2043.jpg",
+    "https://www.brookings.edu/wp-content/uploads/2020/02/Maidan.jpg?w=1030&h=580&crop=1"
+  ]
+}

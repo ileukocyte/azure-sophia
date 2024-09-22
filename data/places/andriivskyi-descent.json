@@ -1,0 +1,16 @@
+{
+  "name": "Andriivskyi Descent",
+  "id": "andriivskyi-descent",
+  "description": "Andrew's Descent is a historic descent connecting Kyiv's Upper Town neighborhood and the historically commercial Podil neighborhood. The street, often advertised by tour guides and operators as the \"Montmartre of Kyiv\", is a major tourist attraction of the city. It is included in the list of national landmarks by the government resolution. In addition, the street is also part of the Kyiv city historic reserve \"Ancient Kyiv\", while the St.Andrew's Church belongs to the National historic reserve \"Sophia of Kyiv\".\n\nThe descent, 720 metres (2,360 ft) in length, is constructed of laid cobblestones and connects Old Kyiv (Upper city) with Podil (Lower city). It starts at the end of Volodymyrska Street and winds down steeply around the Zamkova Hora hill, ending near the Kontraktova Square. Andrew's Descent is marked by a couple historic landmarks, including the Castle of Richard the Lionheart, the 18th century baroque Saint Andrew's Church, famed Russian writer Mikhail Bulgakov's house, and numerous other monuments.",
+  "location": {
+    "humanized_address": "Andriivskyi Descent",
+    "latitude": 50.4598069,
+    "longitude": 30.5139511
+  },
+  "pictures": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%83%D0%B7%D0%B2%D1%96%D0%B7.%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D1%86%D0%B5%D1%80%D0%BA%D0%B2%D0%B0._%D0%9A%D0%B8%D1%97%D0%B2.jpg/1280px-%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%83%D0%B7%D0%B2%D1%96%D0%B7.%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D1%86%D0%B5%D1%80%D0%BA%D0%B2%D0%B0._%D0%9A%D0%B8%D1%97%D0%B2.jpg",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/95/6c/d0/219-2164adbfbd183170c7749ec6d1.jpg?w=2000&h=-1&s=1",
+    "https://ua.igotoworld.com/frontend/webcontent/images/tours/1929545_800x600_ArticleImages_355_A.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/2019-07-13_Andriivskyi_Descent%2C_Kyiv.jpg/1280px-2019-07-13_Andriivskyi_Descent%2C_Kyiv.jpg"
+  ]
+}

@@ -1,0 +1,221 @@
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.dialog-pane,
+.dialog-pane .header-panel,
+.dialog-pane .button-bar .container  {
+    -fx-background-color: #18181c;
+}
+
+.dialog-pane > .content.label {
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+}
+
+.blue-button,
+.blue-default-dialog-pane .button-bar .container .button:default,
+.blue-cancel-dialog-pane .button-bar .container .button:cancel {
+    -fx-background-color: #0095c8;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 30px;
+}
+
+.blue-button:pressed,
+.blue-default-pane .button-bar .container .button:default:pressed,
+.blue-cancel-dialog-pane .button-bar .container .button:cancel:pressed {
+    -fx-background-color: #0083b7;
+}
+
+.green-button {
+    -fx-background-color: #00c811;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 30px;
+}
+
+.green-button:pressed {
+    -fx-background-color: #00b709;
+}
+
+.red-button,
+.red-cancel-dialog-pane .button-bar .container .button:cancel,
+.red-default-dialog-pane .button-bar .container .button:default {
+    -fx-background-color: #c53535;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 30px;
+}
+
+.red-button:pressed,
+.red-cancel-dialog-pane .button-bar .container .button:cancel:pressed,
+.red-default-dialog-pane .button-bar .container .button:default:pressed {
+    -fx-background-color: #ab3030;
+}
+
+#editProfileButton {
+    -fx-font-size: 21px;
+}
+
+#markAsVisitedButton, #createPlanButton, #clearHistoryButton, #changePasswordButton, #aboutButton {
+    -fx-font-size: 13px;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #18181c;
+    -fx-background-radius: 30px;
+    -fx-padding: 5px 15px;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #0095c8;
+}
+
+.tab-pane .tab:selected:pressed {
+    -fx-background-color: #0083b7;
+}
+
+.tab-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+}
+
+.tab:selected .tab-label {
+    -fx-font-weight: bold;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 5px;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #121215;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+
+.dark-textfield {
+    -fx-background-color: #141419;
+    -fx-text-fill: white;
+}
+
+.dark-textarea {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: #141419;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #b2b2b2;
+}
+
+.plan-card {
+    -fx-background-color: #282833;
+    -fx-background-radius: 10px;
+}
+
+.plan-card:hover {
+    -fx-background-color: #212129;
+}
+
+.dark-combobox {
+    -fx-background-color: #141419;
+}
+
+.dark-combobox .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: #141419;
+}
+
+.dark-combobox .list-cell:hover {
+    -fx-background-color: #0095c8;
+}
+
+.dark-combobox .arrow {
+    -fx-background-color: white;
+}
+
+.dark-combobox .list-view {
+    -fx-background-color: transparent;
+}
+
+.dark-datepicker .date-picker-display-node {
+    -fx-background-color: #141419;
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;
+}
+
+.dark-datepicker .cell {
+    -fx-text-fill: white;
+    -fx-background-color: #18181c;
+}
+
+.dark-datepicker .cell:hover {
+    -fx-background-color: #0095c8;
+}
+
+.dark-datepicker .cell:focused {
+    -fx-background-color: #0095c8;
+}
+
+.dark-datepicker .month-year-pane {
+    -fx-background-color: #141419;
+}
+
+.dark-datepicker .month-year-pane .label {
+    -fx-text-fill: white;
+}
+
+.dark-datepicker .spinner .button .left-arrow,
+.dark-datepicker .spinner .button .right-arrow {
+    -fx-background-color: white;
+}
+
+.dark-datepicker .spinner .button {
+    -fx-background-color: transparent;
+}
+
+.dark-datepicker .spinner .button:hover {
+    -fx-background-color: #030308;
+}
+
+.dark-datepicker .arrow-button {
+    -fx-background-color: #141419;
+}
+
+.dark-datepicker .arrow {
+    -fx-background-color: white;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .increment-button .increment-arrow,
+.scroll-bar:vertical .decrement-button .decrement-arrow {
+    -fx-background-color: #282833;
+}
+
+.scroll-bar:vertical .increment-button .increment-arrow:hover,
+.scroll-bar:vertical .decrement-button .decrement-arrow:hover {
+    -fx-background-color: #212129;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #282833;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #212129;
+}

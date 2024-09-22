@@ -1,0 +1,13 @@
+{
+  "name": "Old Kyiv",
+  "id": "old-kyiv",
+  "description": "Old Kyiv is a historical neighborhood of Kyiv. Other names include Upper City, Old Town, and others. It is located at the far eastern portion of the Shevchenko Raion. Old Kyiv historically represents the city of Yaroslav the Wise before it was presumably destroyed by the Mongol invasion of Batu Khan in 1240.\n\nOriginated at the Old Kyiv Hill (Starokievsky Holm), it was created in contrast to the Lower City, Podil. Presumably it started out from the ancient settlement of Kyi sometime at the start of the 6th century. In the 9–10th centuries it covered only 2 ha (4.9 acres) mostly at the western portion of the Old Kyiv Hill. Today at that location stands the National Historical Museum of Ukraine.",
+  "location": {
+    "humanized_address": "Old Kyiv",
+    "latitude": 50.458333,
+    "longitude": 30.516111
+  },
+  "pictures": [
+    "https://upload.wikimedia.org/wikipedia/commons/7/78/Volodymyrska2.jpg"
+  ]
+}

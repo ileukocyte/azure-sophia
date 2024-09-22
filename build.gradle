@@ -1,0 +1,127 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'org.beryx.jlink' version '2.25.0'
+}
+
+apply plugin: 'idea'
+
+def current = new Version(1, 0, 2)
+
+group 'io.ileukocyte'
+version current.toString()
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+ext {
+    junitVersion = '5.9.1'
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+application {
+    mainModule = 'io.ileukocyte.azuresophia'
+    mainClass = 'io.ileukocyte.azuresophia.ApplicationRunner'
+}
+
+javafx {
+    version = '17.0.7'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    implementation 'org.openjfx:javafx-graphics:17.0.7:win'
+    implementation 'org.openjfx:javafx-graphics:17.0.7:linux'
+    implementation 'org.openjfx:javafx-graphics:17.0.7:mac'
+    implementation group: 'org.json', name: 'json', version: '20230227'
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jlink {
+    imageZip = project.file("${buildDir}/distributions/app-${javafx.platform.classifier}.zip")
+    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+    launcher {
+        name = 'app'
+    }
+}
+
+jlinkZip {
+    group = 'distribution'
+}
+
+tasks.register('fatJar', Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    manifest {
+        attributes 'Main-Class': 'io.ileukocyte.azuresophia.ApplicationRunner'
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    with jar
+}
+
+class Version {
+    int major
+    int minor
+    int patch
+
+    Stability stability
+    int unstable
+
+    Version(int major, int minor, int patch = 0, Stability stability = Stability.STABLE, int unstable = 0) {
+        this.major = major
+        this.minor = minor
+        this.patch = patch
+        this.stability = stability
+        this.unstable = unstable
+    }
+
+    @Override
+    String toString() {
+        def version = new StringBuilder()
+
+        version.append("$major.$minor")
+
+        if (patch > 0) {
+            version.append(".$patch")
+        }
+
+        if (stability != Stability.STABLE) {
+            version.append("-$stability")
+
+            if (unstable > 0) {
+                version.append(unstable)
+            }
+        }
+
+        new String(version)
+    }
+
+    enum Stability {
+        STABLE,
+        RC,
+        BETA,
+        ALPHA
+    }
+}

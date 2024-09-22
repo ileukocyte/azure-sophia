@@ -1,0 +1,16 @@
+{
+  "name": "House with Chimaeras",
+  "id": "house-with-chimaeras",
+  "description": "House with Chimaeras or Horodecki House is an Art Nouveau building located in the historic Lypky neighborhood of Kyiv, the capital of Ukraine. Situated across the street from the President of Ukraine's office at No. 10, Bankova Street, the building has been used as a presidential residence for official and diplomatic ceremonies since 2005. The street in front of the building is closed off to all automobile traffic, and is now a patrolled pedestrian zone due to its proximity to the Presidential Administration building.\n\nThe Polish architect Władysław Horodecki originally constructed the House with Chimaeras for use as his own upmarket apartment building during the period of 1901–1902. However, as the years went by, Horodecki eventually had to sell the building due to financial troubles, after which it changed ownership numerous times before finally being occupied by an official Communist Party polyclinic until the early 2000s. When the building was vacated, its interior and exterior decor were fully reconstructed and restored according to Horodecki's original plans.",
+  "location": {
+    "humanized_address": "Bankova St, 10",
+    "latitude": 50.4488189,
+    "longitude": 30.5111896
+  },
+  "pictures": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/45/%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_%D1%96%D0%B7_%D1%85%D0%B8%D0%BC%D0%B5%D1%80%D0%B0%D0%BC%D0%B8-3.JPG",
+    "https://www.gpsmycity.com/img/gd_sight/28304.jpg",
+    "https://www.welcometoukraine.info/wp-content/uploads/2019/08/housewithchimeras2.jpg",
+    "https://destinations.ua/storage/crop/archive-articles/avatar_372_max.jpg"
+  ]
+}
